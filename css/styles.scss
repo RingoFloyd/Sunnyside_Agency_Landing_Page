@@ -14,8 +14,64 @@ $Light_Font: 600;
 $Medium_Font: 700;
 $Heavy_Font: 900;
 
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+ul {
+  list-style-type: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: $Neutral_2;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: $Neutral_3;
+}
+::-webkit-scrollbar-button {
+  background-color: $Neutral_2;
+}
+
+.top-image {
+  background-image: url("../images/desktop/image-header.jpg");
+  max-width: 1440px;
+  height: 800px;
+  background-size: cover;
+}
+
+.navbar {
+  width: 1316px;
+  height: 56px;
+  padding-top: 36px;
+  padding-left: 36px;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.menu-items {
+  font-family: $Font_1;
+  color: $Neutral_5;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  
+}
 
 
+
+
+
+@media screen and (min-width: 1920px) {
+  .top-image {
+    background-image: url("../images/desktop/image-header.jpg");
+    max-width: 1920px;
+    height: 1067px;
+    background-size: cover;
+  }
+}
 
 
 

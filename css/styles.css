@@ -8,4 +8,65 @@
 /* Dark grayish blue */
 /* Grayish blue */
 /* White */
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style-type: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #5a636c;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #818498;
+}
+
+::-webkit-scrollbar-button {
+  background-color: #5a636c;
+}
+
+.top-image {
+  background-image: url("../images/desktop/image-header.jpg");
+  max-width: 1440px;
+  height: 800px;
+  background-size: cover;
+}
+
+.navbar {
+  width: 1316px;
+  height: 56px;
+  padding-top: 36px;
+  padding-left: 36px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60% 40%;
+      grid-template-columns: 60% 40%;
+}
+
+.menu-items {
+  font-family: "Barlow", sans-serif;
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+}
+
+@media screen and (min-width: 1920px) {
+  .top-image {
+    background-image: url("../images/desktop/image-header.jpg");
+    max-width: 1920px;
+    height: 1067px;
+    background-size: cover;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
