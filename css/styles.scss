@@ -56,9 +56,22 @@ ul {
   font-family: $Font_1;
   color: $Neutral_5;
   font-weight: $Light_Font;
+  font-size: 18px;
+  line-height: 48px;
   display: grid;
   grid-template-columns: auto auto auto auto;
-  
+}
+
+.menu-4 {
+  height: 3rem;
+  font-family: $Font_2;
+  font-size: 16px;
+  color: $Neutral_1;
+  background-color: $Neutral_5;
+  text-align: center;
+  margin-right: 48px;
+  border-radius: 25px;
+  text-transform: uppercase;
 }
 
 .heading {
