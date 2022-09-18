@@ -55,11 +55,31 @@ ul {
 .menu-items {
   font-family: $Font_1;
   color: $Neutral_5;
+  font-weight: $Light_Font;
   display: grid;
   grid-template-columns: auto auto auto auto;
   
 }
 
+.heading {
+  font-family: $Font_2;
+  color: $Neutral_5;
+  text-transform: uppercase;
+  letter-spacing: 8.75px;
+  font-size: 28px;
+  font-style: normal;
+  text-align: center;
+}
+
+.heading-text {
+  padding-top: 5rem;
+  padding-left: 13rem;
+}
+
+.down-arrow {
+  padding-left: 52%;
+  padding-top: 3rem;
+}
 
 
 
