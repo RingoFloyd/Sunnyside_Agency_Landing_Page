@@ -86,12 +86,47 @@ ul {
 
 .heading-text {
   padding-top: 5rem;
-  padding-left: 13rem;
+  padding-left: 11rem;
 }
 
 .down-arrow {
-  padding-left: 52%;
+  padding-left: 50%;
   padding-top: 3rem;
+}
+
+.egg-block {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.egg-block-text {
+  padding-left: 165px;
+  padding-top: 158px;
+}
+
+h3 {
+  font-family: $Font_2;
+  font-weight: 900;
+  font-size: 40px;
+  color: $Neutral_1;
+}
+
+h5 {
+  font-family: $Font_2;
+  font-weight: 900;
+  font-size: 15px;
+  color: $Neutral_1;
+  text-transform: uppercase;
+}
+
+
+.detail-para {
+  font-family: $Font_1;
+  font-weight: 600;
+  font-size: 18px;
+  color: $Neutral_3;
+  height: 90px;
+  line-height: 1.7rem;
 }
 
 

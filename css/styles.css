@@ -88,12 +88,48 @@ ul {
 
 .heading-text {
   padding-top: 5rem;
-  padding-left: 13rem;
+  padding-left: 11rem;
 }
 
 .down-arrow {
-  padding-left: 52%;
+  padding-left: 50%;
   padding-top: 3rem;
+}
+
+.egg-block {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+}
+
+.egg-block-text {
+  padding-left: 165px;
+  padding-top: 158px;
+}
+
+h3 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 40px;
+  color: #23303e;
+}
+
+h5 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 15px;
+  color: #23303e;
+  text-transform: uppercase;
+}
+
+.detail-para {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #818498;
+  height: 90px;
+  line-height: 1.7rem;
 }
 
 @media screen and (min-width: 1920px) {
