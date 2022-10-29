@@ -96,14 +96,16 @@ ul {
   padding-top: 3rem;
 }
 
-.egg-block {
+.main-content {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 50% 50%;
-      grid-template-columns: 50% 50%;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  -ms-grid-rows: auto auto auto;
+      grid-template-rows: auto auto auto;
 }
 
-.egg-block-text {
+.transform-txt {
   padding-left: 165px;
   padding-top: 158px;
 }
@@ -130,6 +132,11 @@ h5 {
   color: #818498;
   height: 90px;
   line-height: 1.7rem;
+}
+
+.stand-out-txt {
+  padding-left: 165px;
+  padding-top: 158px;
 }
 
 @media screen and (min-width: 1920px) {
