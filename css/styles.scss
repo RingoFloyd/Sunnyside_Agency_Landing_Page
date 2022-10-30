@@ -114,16 +114,12 @@ ul {
 
 .trans-heading {
   padding-top: 75px;
-  
-
 }
 
 .transform-img {
-  
   grid-column: 2 / span 1;
   grid-row: 1 / span 1;
-  height: 600px;
-  
+  height: 600px; 
 }
 
 .stand-out-img {
@@ -143,16 +139,58 @@ ul {
   height: 600px;
 }
 
+.cherry-txt {
+  margin-top: -250px;
+  display: grid;
+  grid-template-rows: 35% 65%;
+  justify-content: center;
+  text-align: center;
+}
+
+.cherry-txt p {
+  font-family: $Font_1;
+  font-weight: 600;
+  font-size: 16px;
+  color: $Neutral_2;
+  line-height: 1.7rem;
+  
+}
+
 .orange-img {
   grid-column: 2 / span 1;
   grid-row: 3 / span 1;
   height: 600px;
 }
 
+.orange-txt {
+  margin-top: -250px;
+  display: grid;
+  grid-template-rows: 35% 65%;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+.orange-txt p {
+  font-family: $Font_1;
+  font-weight: 600;
+  font-size: 16px;
+  color: $Neutral_2;
+  line-height: 1.7rem;
+  
+}
+
 h3 {
   font-family: $Font_2;
   font-weight: 900;
   font-size: 40px;
+  color: $Neutral_1;
+}
+
+h4 {
+  font-family: $Font_2;
+  font-weight: 900;
+  font-size: 28px;
   color: $Neutral_1;
 }
 
@@ -163,11 +201,6 @@ h5 {
   color: $Neutral_1;
   text-transform: uppercase;
 }
-
-
-
-
-
 
 .detail-para {
   font-family: $Font_1;

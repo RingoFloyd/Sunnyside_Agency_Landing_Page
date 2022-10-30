@@ -163,6 +163,26 @@ ul {
   height: 600px;
 }
 
+.cherry-txt {
+  margin-top: -250px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 35% 65%;
+      grid-template-rows: 35% 65%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.cherry-txt p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #5a636c;
+  line-height: 1.7rem;
+}
+
 .orange-img {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
@@ -173,10 +193,37 @@ ul {
   height: 600px;
 }
 
+.orange-txt {
+  margin-top: -250px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 35% 65%;
+      grid-template-rows: 35% 65%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.orange-txt p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #5a636c;
+  line-height: 1.7rem;
+}
+
 h3 {
   font-family: "Fraunces", serif;
   font-weight: 900;
   font-size: 40px;
+  color: #23303e;
+}
+
+h4 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 28px;
   color: #23303e;
 }
 
